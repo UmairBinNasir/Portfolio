@@ -1,0 +1,32 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "title": "Bachelor of Science Honours in Mathematics",
+        "description": "UNIVERSITY OF THE PUNJAB(Lahore,Punjab,Pakistan) 2019 - 2023",
+        "isFeatured": true,
+        "image": "/myImages/1.jpg"
+      },
+      {
+        "id": 2,
+        "title": " Intermediate (ICS)",
+        "description": "GOVT MAO COLLEGE(Lahore, Punjab, Pakistan) 2017 - 2019",
+        "isFeatured": true,
+        "image": "/myImages/2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Certified React Frontend Web Developement",
+        "description": "Arfa Kareem Technology Park(Lahore,Punjab,Pakistan) april 2022- sep 2022",
+        "isFeatured": true,
+        "image": "/myImages/3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Cloud Applied Generative AI Engineer(Continue)",
+        "description": "University of Management and Technology(Lahore, Punjab, Pakistan)",
+        "isFeatured": true,
+        "image": "/myImages/4.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "title": "Restaurant Website",
+        "link": "https://my-restaurant-tau.vercel.app/",
+        "description": "My fast food restaurant project aims to revolutionize quick dining with a focus on fresh, locally sourced ingredients and sustainable practices.",
+        "isFeatured": true,
+        "image": "/projects/1.PNG"
+      },
+      {
+        "id": 2,
+        "title": "Cards",
+        "link": "https://my-restaurant-tau.vercel.app/menu",
+        "description": "Perfect for barbecue aficionados, it combines the joy of outdoor grilling with the convenience of a subscription service, promising a culinary journey through bold flavors and hearty indulgence.",
+        "isFeatured": true,
+        "image": "/projects/2.PNG" 
+      },
+      {
+        "id": 3,
+        "title": "Pop Over",
+        "link": "https://my-restaurant-tau.vercel.app/catering",
+        "description": "Facilitated a seamless upgrade of the client's e-commerce website from Magento version 2.3 to 2.4.3-p1, while concurrently delivering valuable contributions such as implementing minor updates and resolving bugs. The successful upgrade.",
+        "isFeatured": true,
+        "image": "/projects/3.PNG" 
+      },
+      {
+        "id": 4,
+        "title": "Portfolio Website",
+        "link": "https://abdul-wajid.vercel.app/",
+        "description": "Effectively upgraded the client's Magento website from version 2.3 to 2.4.3-p2 while concurrently optimizing their website architecture. I successfully separated custom modules into separate API, Frontend, and Admin modules. I completed several minor modifications providing efficient shopping experience for customers.",
+        "isFeatured": true,
+        "image": "/projects/4.PNG"
+      },
+      {
+        "id": 5,
+        "title": "Hover Effects",
+        "link": "https://abdul-wajid.vercel.app/projects",
+        "description": "Contributed to the success of the client's e-commerce business by leading a successful upgrade from Magento version 2.3 to 2.4.5-p1. Additionally, I developed a dual checkout functionality that enables clients to place shared orders, improving the efficiency and convenience of the checkout process. I also designed a captivating landing page.",
+        "isFeatured": true,
+        "image": "/projects/5.PNG"
+      },
+      {
+        "id": 6,
+        "title": "Tooltip",
+        "link": "https://abdul-wajid.vercel.app/experience",
+        "description": "Successfully migrated the client's website from Drupal to Magento 2.4.5-p1, ensuring a seamless transition and improved website functionality. Additionally, I developed custom shipping methods that were tailored to the client's specific needs, ultimately resulting in a more user-friendly and efficient checkout process for their customers.",
+        "isFeatured": true,
+        "image": "/projects/6.PNG"
+      }
+    ]
+  }
+  
