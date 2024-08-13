@@ -7,7 +7,7 @@ import Image from "next/image";
 import Data from "@/Data/Projects.json";
 import Link from "next/link";
 import { Fanwood_Text } from "next/font/google";
-
+import ButtonWithIcon from "./Visitbtn";
 interface Projects {
   id: number;
   title: string;
@@ -36,7 +36,6 @@ function ProjectsCards() {
       <div className="mt-10 mx-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredProjects.map((projects: Projects) => (
-            <Link href={projects.link}>
               <div key={projects.id} className="flex justify-center">
                 <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                   <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
@@ -51,10 +50,12 @@ function ProjectsCards() {
                     <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                       {projects.description}
                     </p>
+                    <Link className="mt-5" href={projects.link}>
+                      <ButtonWithIcon />
+                    </Link>
                   </div>
                 </BackgroundGradient>
               </div>
-            </Link>
           ))}
         </div>
       </div>

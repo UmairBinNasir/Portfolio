@@ -5,7 +5,7 @@ export default function EducationCards() {
   return (
     <div>
         <h1 className="p-10 text-center text-2xl">Education</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-2 max-w-7xl mx-auto">
         {grid.map((feature) => (
           <div
             key={feature.title}
@@ -39,7 +39,7 @@ const grid = [
   {
     title: "Certified React Frontend Web Developement",
     description:
-      "Arfa Kareem Technology Park(Lahore,Punjab,Pakistan) april 2022- sep 2022.",
+      "Arfa Kareem Technology Park(Lahore, Punjab, Pakistan) april 2022- sep 2022.",
   },
   {
     title: "Cloud Applied Generative AI Engineer(Continue)",

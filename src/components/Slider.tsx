@@ -67,14 +67,14 @@ const data = [
   },
   {
     category: "Matriculation",
-    title: "Govt. High School Shakargark",
+    title: "Govt. High School Shakargarh",
     src: "/myImages/4.jpg",
     content: <DummyContent />,
   },
 
   {
     category: "Web Developement",
-    title: "Arfa Tower Lahore.",
+    title: "Arfa Kareem Tower Lahore.",
     src: "/myImages/5.jpg",
     content: <DummyContent />,
   },

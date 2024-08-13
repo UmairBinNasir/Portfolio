@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import Tooltip from "./Tooltip";
 export default function TypewriterEffect() {
   const words = [
     {
@@ -23,11 +24,12 @@ export default function TypewriterEffect() {
         Hi, I am Umair Bin Nasir
       </p>
       <TypewriterEffectSmooth words={words} />
-      <Link href="/work" className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+      <Tooltip />
+      {/* <Link href="/projects">
         <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
           Projects
         </button>
-      </Link>
+      </Link> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function ExpertiseCards() {
   return (
     <div>
         <h1 className="p-10 text-center text-2xl">Expertise</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-2 max-w-7xl mx-auto">
         {grid.map((feature) => (
           <div
             key={feature.title}
