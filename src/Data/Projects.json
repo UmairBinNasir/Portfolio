@@ -2,6 +2,14 @@
     "data": [
       {
         "id": 1,
+        "title": "Medical Store",
+        "link": "https://medical-store-project-jgiotat3k.vercel.app/",
+        "description": "At Medical Store, we procure all our medicines from only certified and registered pharmacies in Pakistan such as Kausar Medicos, Tayyab Medical, Time Medicos, etc.",
+        "isFeatured": true,
+        "image": "/projects/7.png"
+      },
+      {
+        "id": 1,
         "title": "Restaurant Website",
         "link": "https://my-restaurant-tau.vercel.app/",
         "description": "My fast food restaurant project aims to revolutionize quick dining with a focus on fresh, locally sourced ingredients and sustainable practices.",
